@@ -1,0 +1,8 @@
+{
+  "name": "playground-gtk-javascript",
+  "private": true,
+  "dependencies": {
+    "cgjs": "^0.1.23",
+    "node-gir": "Place1/node-gir"
+  }
+}
