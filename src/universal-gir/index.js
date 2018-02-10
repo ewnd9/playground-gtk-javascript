@@ -8,7 +8,8 @@ if (process.versions.cgjs) {
   const { load } = require('node-gir');
   loadFn = load;
 
-  global.ARGV = [];
+  const patchedFirstArg = process.argv[1].replace(new RegExp(`^${process.cwd()}/`), '');
+  global.ARGV = [patchedFirstArg].concat(process.argv.slice(2));
 }
 
 const gir = new Proxy({}, {
