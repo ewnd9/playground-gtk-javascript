@@ -2,13 +2,13 @@
 
 let loadFn;
 
-if ((typeof process.versions === 'function' && process.versions().cgjs) || process.versions.cgjs) {
+if (process.versions.cgjs) {
   loadFn = require;
 } else {
   const { load } = require('node-gir');
   loadFn = load;
 
-  global.ARGV = null;
+  global.ARGV = [];
 }
 
 const gir = new Proxy({}, {

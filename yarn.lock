@@ -2,37 +2,37 @@
 # yarn lockfile v1
 
 
-"@cgjs/assert@^0.0.1":
+"@cgjs/assert@^0.0.1", "@cgjs/assert@~0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@cgjs/assert/-/assert-0.0.1.tgz#b4d569b7e7c339272feea0e140f5130ea5529c51"
 
-"@cgjs/buffer@^0.1.0":
+"@cgjs/buffer@^0.1.0", "@cgjs/buffer@~0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@cgjs/buffer/-/buffer-0.1.0.tgz#568cadd4c5264e0657239de3ee35e9f7c1ba2dd8"
   dependencies:
     buffer "^5.0.8"
 
-"@cgjs/cluster@0.0.1":
+"@cgjs/cluster@0.0.1", "@cgjs/cluster@~0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@cgjs/cluster/-/cluster-0.0.1.tgz#76883e1b91a7506c091210fa08725c1837e813b4"
 
-"@cgjs/console@^0.1.2":
+"@cgjs/console@^0.1.2", "@cgjs/console@~0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@cgjs/console/-/console-0.1.2.tgz#e58b5bd341e96b03deaa09022a7f1d650655534c"
 
-"@cgjs/events@^0.1.0":
+"@cgjs/events@^0.1.0", "@cgjs/events@~0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@cgjs/events/-/events-0.1.0.tgz#160cc63a82d63937d83d95268b0f0f18ae802551"
 
-"@cgjs/fs@^0.0.1":
+"@cgjs/fs@^0.0.1", "@cgjs/fs@~0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@cgjs/fs/-/fs-0.0.1.tgz#09a22df169bd928d09f16497e5f6b80b3a58f36e"
 
-"@cgjs/os@^0.1.0":
+"@cgjs/os@^0.1.0", "@cgjs/os@~0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@cgjs/os/-/os-0.1.0.tgz#17209ba02e93cf5a01e0b94ad875e160257b329f"
 
-"@cgjs/path@^0.1.0":
+"@cgjs/path@^0.1.0", "@cgjs/path@~0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@cgjs/path/-/path-0.1.0.tgz#42cd5a67d865aae1175c28638409290d96ac2054"
 
@@ -40,13 +40,17 @@
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@cgjs/process/-/process-0.0.2.tgz#a364842f76b145ed5215a39770b7ec69059525de"
 
-"@cgjs/timers@^0.0.1":
+"@cgjs/process@~0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cgjs/process/-/process-0.0.3.tgz#bad6c515c3b709fa29a65b9292782403aaea76a9"
+
+"@cgjs/timers@^0.0.1", "@cgjs/timers@~0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@cgjs/timers/-/timers-0.0.1.tgz#02e1d295a0003d5c6ea507fae274e9d677b98458"
   dependencies:
     cgjs "^0.1.3"
 
-"@cgjs/util@^0.1.0":
+"@cgjs/util@^0.1.0", "@cgjs/util@~0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@cgjs/util/-/util-0.1.0.tgz#c9b363eb1e91d1fddb8c7d80c0b211c138d5bb83"
 
@@ -61,7 +65,23 @@ buffer@^5.0.8:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
 
-cgjs@^0.1.23, cgjs@^0.1.3:
+cgjs@^0.1.24:
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/cgjs/-/cgjs-0.1.24.tgz#040ea44185470de0c23e6b24315c9f1cab803bbd"
+  dependencies:
+    "@cgjs/assert" "~0.0.1"
+    "@cgjs/buffer" "~0.1.0"
+    "@cgjs/cluster" "~0.0.1"
+    "@cgjs/console" "~0.1.2"
+    "@cgjs/events" "~0.1.0"
+    "@cgjs/fs" "~0.0.1"
+    "@cgjs/os" "~0.1.0"
+    "@cgjs/path" "~0.1.0"
+    "@cgjs/process" "~0.0.3"
+    "@cgjs/timers" "~0.0.1"
+    "@cgjs/util" "~0.1.0"
+
+cgjs@^0.1.3:
   version "0.1.23"
   resolved "https://registry.yarnpkg.com/cgjs/-/cgjs-0.1.23.tgz#9e73a6c8d1b27983e765f3a64038ac04dac6239d"
   dependencies:
