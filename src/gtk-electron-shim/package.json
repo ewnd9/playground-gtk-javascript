@@ -1,0 +1,8 @@
+{
+  "name": "gtk-electron-shim",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "universal-gtk": "0.0.1"
+  }
+}
