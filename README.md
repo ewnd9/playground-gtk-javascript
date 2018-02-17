@@ -7,6 +7,11 @@ Exploring ways to run JavaScript apps with GTK (Linux)
 - [`Place1/node-gir`](https://github.com/Place1/node-gir) - Native module for Node.js with GTK bindings
 - [`PaulBGD/node-desktop`](https://github.com/PaulBGD/node-desktop) - Native module for Node.js with manual GTK bindings via `ffi`
 
+## React implementations
+
+- [`selaux/react-gtk`](https://github.com/selaux/react-gtk) - for `gjs`
+- [`Place1/react-native-gtk`](https://github.com/Place1/react-native-gtk) - for `node-gir`
+
 ## Available apps
 
 - All GNOME org on GitHub - search by `org:GNOME language:js`
@@ -29,6 +34,7 @@ Exploring ways to run JavaScript apps with GTK (Linux)
     - https://github.com/ruby-gnome2/ruby-gnome2/tree/master/gtk3
 - `Golang`
   - https://github.com/gotk3/gotk3
+  - https://github.com/mattn/go-gtk
 - `Rust`
   - https://github.com/gtk-rs/gtk
 - `Vala`
