@@ -17,6 +17,15 @@ Exploring ways to run JavaScript apps with GTK (Linux)
 - All GNOME org on GitHub - search by `org:GNOME language:js`
 - [`makepost/acme-commander`](https://github.com/makepost/acme-commander) - GTK/Inferno native twin-panel file manager for Ubuntu
 
+## Examples
+
+### Install
+
+```sh
+$ git submodule update --init
+$ yarn install
+```
+
 ## Related
 
 - https://github.com/Kazhnuz/awesome-gnome
