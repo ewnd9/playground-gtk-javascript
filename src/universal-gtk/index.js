@@ -3,7 +3,20 @@
 let loadFn;
 
 if (process.versions.cgjs) {
-  loadFn = require;
+  loadFn = function(name) {
+    try {
+      return require(name);
+    } catch (e) {
+      // @TODO do better
+      const res = imports.gi[name];
+
+      if (res) {
+        return res;
+      } else {
+        throw new Error(`Can't find ${name}`);
+      }
+    }
+  };
 } else {
   const { load } = require('node-gir');
   loadFn = load;
