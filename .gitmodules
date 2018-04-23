@@ -4,3 +4,6 @@
 [submodule "vendor/programmica-examples"]
 	path = vendor/programmica-examples
 	url = https://github.com/Programmica/gjs-gtk-examples.git
+[submodule "vendor/gjs"]
+	path = vendor/gjs
+	url = https://gitlab.gnome.org/GNOME/gjs.git
