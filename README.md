@@ -29,6 +29,7 @@ $ yarn install
 ## Related
 
 - https://github.com/Kazhnuz/awesome-gnome
+- https://github.com/ewnd9/cgjs-examples
 
 ## Other languages
 
